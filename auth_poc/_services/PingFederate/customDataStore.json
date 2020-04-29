@@ -1,0 +1,25 @@
+{
+  "type": "CUSTOM",
+  "name": "polaris",
+  "pluginDescriptorRef": {
+    "id": "polaris.auth.pingfederate.SapiDataStore"
+  },
+  "configuration": {
+    "tables": [],
+    "fields": [
+      {
+        "name": "Site API Url",
+        "value": "http://polaris-dispatcher.profserv.aws.greenwayhealth.com"
+      },
+      {
+        "name": "Serilog sink url",
+        "value": "http://logging.profserv.aws.greenwayhealth.com/log/serilog"
+      },
+      {
+        "name": "Serilog minimum output level",
+        "value": "Information"
+      }
+    ]
+  },
+  "maskAttributeValues": false
+}

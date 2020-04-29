@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:AdapterConfiguration isInheritExtendedContractAttributes="false" name="polaris.auth.pingfederate.SapiDataStore" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+    <urn:Fields>
+        <urn:Field name="Site API Url">http://polaris-dispatcher.profserv.aws.greenwayhealth.com</urn:Field>
+        <urn:Field name="Serilog sink url">http://logging.profserv.aws.greenwayhealth.com/log/serilog</urn:Field>
+    </urn:Fields>
+    <urn:AdvancedFields/>
+    <urn:Tables/>
+</urn:AdapterConfiguration>

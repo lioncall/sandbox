@@ -1,0 +1,18 @@
+dn: ou=Applications,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+objectClass: extensibleObject
+ou: Admins
+ou: Applications
+
+dn: uid=PFAdmin,ou=Applications,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+givenName: PingFederate
+uid: PFAdmin
+cn: PFAdmin
+sn: Administrator
+userPassword: 2FederateM0re
+ds-privilege-name: proxied-auth

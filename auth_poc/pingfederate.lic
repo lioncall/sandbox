@@ -1,0 +1,13 @@
+ID=1386427
+Organization=Greenway Health, LLC
+Product=PingFederate
+Version=9.0
+IssueDate=2019-09-4
+EnforcementType=3
+ExpirationDate=2022-09-30
+Tier=Subscription
+SaasProvisioning=true
+WSTrustSTS=true
+OAuth=true
+SignCode=FF07
+Signature=302C02142CBFAC2995B0445CC7BBB1E53F08ED83DC09BFA4021402515A2BC852849DB0977DF7435E2BCB7454A991

@@ -1,0 +1,4 @@
+dn: ou=People,dc=example,dc=com
+changetype: modify
+add: aci
+aci: (version 3.0; acl "People Proxy Access"; allow(proxy) userdn="ldap:///uid=PFAdmin,ou=Applications,dc=example,dc=com";)
